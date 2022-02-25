@@ -1,0 +1,40 @@
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  font-family: fantasy ;
+  background-image: linear-gradient(#EEE8AA, #FAFAD2);
+}
+h1, h2, h3, h4, h5 {
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: Trattatello, serif;
+  font-size: medium;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+div {
+  text-align: center;
+  text-indent: each-line;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+img {
+  display: block;
+  margin-left: 35%;
+  margin-right: 20%;
+}
+
+a:link {
+  color:mediumpurple;
+  text-decoration:none;
+}
+a:visited {
+  color:lightblue;
+  text-decoration:none;
+}
+a:hover {
+  color:pink;
+}

@@ -1,0 +1,18 @@
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url("flowers.JPG");
+}
+h1, h2, h3, h4, h5 {
+  font-family: serif;
+  font-size: medium;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+img {
+  display: block;
+  margin-left: 35%;
+  margin-right: 20%;
+}
+

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <Title> Chen Xu's Home Page</Title>
+    <link rel = "stylesheet" href = "good.css" type="text/css"/>
+</head>
+<body>
+    <h1>Chen Xu's Homepage</h1>
+    <hr />
+    <div>
+        <h2>Content</h2>
+        <ul class = "navbar">
+            <li><a href="#Summary">About me</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#Experiences">Experiences</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Contact">Contact me</a></li>
+        </ul>
+
+        <p>
+        <img src="me.JPG" style="width:30%;" alt="pic" /><br/><br/>
+        </p>
+    </div>
+    <hr />
+    <div>
+        <h2 id = "Summary">About me</h2>
+        <p>
+            My name is Chen Xu. I am an international student from China, I finished my high school in Nova Scotia. I am studying the computer science in my third year, I have a solid computer foundation, familiar with Python, C, Java. Also, I am good at communication and coordination, logical thinking, good adaptability, and resistance to pressure.
+        </p>
+        <hr/>
+        <h2 id = "Education">Education</h2>
+        <h4>2016-2018</h4>
+        <p>Suzhou University High School</p>
+        <h4>2018-2019</h4>
+        <p>Millwood High School</p>
+        <h4>2019-present </h4>
+        <p>
+            University of Alberta, Canada<br>
+            Computer Science Bachelor Science<br>
+            International Scholarships for four consecutive years (2019-2023)<br>
+        </p>
+        <hr />
+        <h2 id = "Experiences">Experiences</h2>
+        <h4>2017 Sep</h4>
+        <button type="button" class="collapsible">Maldives volunteer activities</button>
+        <div class="content">
+            <h5>Volunteer</h5>
+            <li>Mentoring local primary school English teaching.</li>
+            <li>Help local residents for weeding, clean up the beach, etc.</li><br><br>
+        </div>
+        <h4>2018 Nov</h4>
+        <button type="button" class="collapsible">Future Leaders Cup Business Mock Challenge</button>
+        <div class="content">
+            <h5>Team leader</h5>
+            <li>Coordinate the division of labor and work progress within the group, form a written report and present it on site.</li>
+            <li>Obtain certificates for outstanding performance and business competence.</li><br><br>
+        </div>
+        <h4>2018-2019</h4>
+        <button type="button" class="collapsible">Suzhou University high school sino-Canada program</button>
+        <div class="content">
+            <h5>Students' Union Vice-President</h5>
+            <li>Leading students to organize multiple events (charity sale, volunteers, game competitions).</li>
+            <li>Participate in the reception of the Governor of Nova Scotia, Canada.</li><br><br>
+        </div>
+        <!--this part I use the code from Javascript Part in "https://www.w3schools.com/howto/howto_js_collapsible.asp"-->
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                  content.style.display = "none";
+                } else {
+                  content.style.display = "block";
+                }
+              });
+            }
+        </script>
+        <hr />
+        <h2 id = "Skills">Skills</h2>
+        <h4>Skills</h4>
+        <div class="skills">
+            <p>Python, SPSS, SQL, PowerPoint</p>
+        </div>
+        <h4>Languages</h4>
+        <div class="Languages">
+            <p>Mandarin (Native language), English (accessible communication)</p>
+        </div>
+        <h4>Interests</h4>
+        <div class="Interests">
+            <p>Piano (five), guitar, travel</p>
+        </div>
+        <hr />
+        <h2 id="Contact">Contact Me</h2>
+        <div class="contact-information">
+            Phone number: (+1) 780-655-8104<br><br>
+            Email: cxu4@ualberta.ca<br><br>
+            <a href="https://github.com/Chen74" target="_blank">Github: https://github.com/Chen74</a><br><br>
+        </div>
+    </div>
+
+</body>
+</html>
